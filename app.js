@@ -7,7 +7,7 @@ const errorHandlerMiddleware=require("./middleware/errorHandler");
 require("dotenv").config();
 
 //middle ware
-app.use(express.static("./public"));
+app.use(express.static("./public2"));
 
 app.use(express.urlencoded({extended:false}));
 
